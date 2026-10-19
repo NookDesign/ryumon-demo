@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="門と月をかたどった装飾イラスト">
+  <defs>
+    <radialGradient id="moon" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#7a1820" stop-opacity="0.9"/>
+      <stop offset="0.65" stop-color="#4a0e14" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#1a0f0e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="300" cy="270" r="240" fill="url(#moon)"/>
+  <g fill="none" stroke="#b8975a" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="300" cy="270" r="210" stroke-width="1.2" opacity="0.9"/>
+    <circle cx="300" cy="270" r="196" stroke-width="0.6" opacity="0.5"/>
+    <!-- 屋根（韓屋の軒の反り） -->
+    <path d="M110 214 C170 214 210 178 300 164 C390 178 430 214 490 214" stroke-width="2.4"/>
+    <path d="M100 206 C108 214 112 216 122 216 M500 206 C492 214 488 216 478 216" stroke-width="2.4"/>
+    <path d="M150 230 C200 228 240 206 300 198 C360 206 400 228 450 230" stroke-width="1.2" opacity="0.8"/>
+    <!-- 梁 -->
+    <path d="M168 252 H432" stroke-width="2"/>
+    <path d="M180 270 H420" stroke-width="1" opacity="0.7"/>
+    <!-- 柱 -->
+    <path d="M196 252 V430 M404 252 V430" stroke-width="2.4"/>
+    <path d="M250 270 V430 M350 270 V430" stroke-width="1" opacity="0.6"/>
+    <!-- 扁額 -->
+    <rect x="270" y="208" width="60" height="34" rx="2" stroke-width="1.4"/>
+    <!-- 山並み -->
+    <path d="M40 470 C110 420 150 440 200 410 C250 380 280 420 320 400 C380 370 430 420 480 400 C520 386 545 410 560 420" stroke-width="1.2" opacity="0.75"/>
+    <path d="M70 500 C140 470 190 482 240 462 C300 440 350 476 410 458 C460 444 500 460 540 470" stroke-width="0.8" opacity="0.5"/>
+    <!-- 雲（韓国伝統の雲文をイメージ） -->
+    <path d="M86 330 c0 -14 16 -20 26 -12 c4 -14 26 -14 30 0 c10 -6 24 0 22 12 H86 Z" stroke-width="1" opacity="0.7"/>
+    <path d="M448 120 c0 -12 14 -18 22 -10 c4 -12 22 -12 26 0 c8 -5 20 0 18 10 H448 Z" stroke-width="1" opacity="0.7"/>
+  </g>
+  <circle cx="300" cy="225" r="5" fill="#b8975a"/>
+</svg>
